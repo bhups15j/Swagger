@@ -1,0 +1,22 @@
+Please familiarize with sample swagger REST API.
+https://petstore.swagger.io/#/-link to the API
+This is swagger documentation of this API, so all details can be found there.
+
+US 1. As an admin of petstore API I would like to:
+-create users
+-create multiple users in single query
+-login to the system as admin
+-logout from the system as admin
+-getuser details
+-delete user
+-modify user
+Condition of satisfaction: We are able to do all of the operations on the API.
+There are no requirements for checking the performance but it would be nice to have some possible scenarios proposed.
+
+US 2. As the API user I would like to Add,Update and Remove pets.
+Condition of satisfaction: All of the mentioned actions should be possible.
+We expects to have it automated with both Robot Framework and unittests(python)
+
+Beneficial points for:
+- dockerized automation tests
+- mocked endpoints within unittest
